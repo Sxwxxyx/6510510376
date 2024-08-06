@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <h2>Register Form</h2>
+    <lable for="">Firstname</lable>
+    <input type="text" name="txtFirstname" id="txtFirstname" required placeholder="Firstname">
+
+    <lable for="txtLastname">Last name</lable>
+    <input type="text" name="txtLastname" id="txtLastname" placeholder="Last name">
+    <br>
+
+    <label for="txtAddressNo">Address No.</label>
+    <input type="text" name="txtAddressNo" id="txtAddressNo" placeholder="No & Roadname">
+
+    <label for="txtTambon">Sub-District</label>
+    <input type="text" name="txtTambon" id="txtTambon" placeholder="Sub-District">
+    <br>
+
+    <label for="txtDistrict">District</label>
+    <input type="text" name="txtDistrict" id="District" placeholder="District">
+    <label for="">Province</label>
+    <select name="selProvince" id="selProvince">
+        <option value="Bangkok">กรุงเทพมหานคร</option>
+        <option value="Khonkhan">ขอนแก่น</option>
+        <option value="Nakhonsithammarat">นครศรีธรรมราช</option>
+        <option value="Songkla">สงขลา</option>
+        <option value="Satun">สตูล</option>
+        <option value="Phattalung">พัทลุง</option>
+        <option value="Pattanee">ปัตตานี
+        <option>
+    </select>
+    <br>
+
+    <lable for="">Postcode</lable>
+    <input type="text" name="txtPostcode" id="Postcode">
+
+    <lable for="">Telephone</lable>
+    <input type="text" name="txtTelephone" id="Telephone">
+    <hr>
+
+    <lable for="rdogender">Gender</lable>
+    <input type="radio" name="rdoGender" id="rdoGender" value="f">Female
+    <input type="radio" name="rdoGender" id="rdoGender" value="m">Male
+    <br>
+
+    <lable for="txtBirthdate">Birth Date</lable>
+    <input type="date" name="txtBirthdate" id="txtBirthdate">
+    <br>
+
+    <lable for="txtEmail">E-mail</lable>
+    <input type="email" name="txtEmail" id="txtEmail">
+    <br>
+
+    <lable for="">Education Background</lable>
+    <input type="checkbox" name="chkHighschool" id="chkHighschool" value="h">High School
+    <input type="checkbox" name="chkBachelor" id="chkBachelor" value="b">Bachelor Degree
+    <input type="checkbox" name="chkMaster" id="chkMaster" value="m">Master Degree
+
+    <form action="process_regist.html" method="get">
+        <input type="submit" value="Save">
+        <input type="reset" value="Cancel">
+</body>
+
+</html>
